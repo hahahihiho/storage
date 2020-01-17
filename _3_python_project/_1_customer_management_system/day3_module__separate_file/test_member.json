@@ -1,0 +1,10 @@
+[{  "name": "강화수",
+    "gender": "F",
+    "email": "a@a.com",
+    "born-year": "2000"
+},
+{   "name": "홍길동",
+    "gender": "M",
+    "email": "d@d.com",
+    "born-year": "1900"
+}]
