@@ -2,13 +2,14 @@
 # **kwargs in function definitions in python is used to pass a keyworded, variable-length argument list.
 
 def add_many(*args): 
-    result = 0 
+    result = 0
     for i in args: 
         result = result + i 
     print(result)
 
 onetofive=[1,2,3,4,5]
 add_many(*onetofive)
+add_many(1,2,3,4,5)
 
 def myFun0(**kwargs):  
     print(kwargs)

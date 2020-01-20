@@ -13,6 +13,7 @@
 #
 # *** 더 공부해야할것 ***
 # deleteData()변경(index-=1, len(table), ==,!=,>,< 각각의 시간,자원소모정도 )
+# db 동기화, 및 multi-thread
 ########################
 
 import Controller_Module as CM

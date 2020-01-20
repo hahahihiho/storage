@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block header %} 
+
+<title>고객 입력창</title>
+
+{% endblock %}
+
+
+{% block body %}
+<h2>고객 입력창</h2>
+<form action='/insertCustomer/' method="POST">
+    name : <input type='text' name='name'><br>
+    성별 : <input type='text' name='gender'><br>
+    email : <input type='text' name='email'><br>
+    출생년도 : <input type='text' name='byear'><br>
+    <input type='submit' value="submit">
+</form>
+{% endblock %}
