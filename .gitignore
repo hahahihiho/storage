@@ -5,3 +5,6 @@ Not_Arrange
 
 # test
 test.py
+
+# virtualenv
+env/
